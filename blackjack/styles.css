@@ -1,0 +1,530 @@
+/* <!-- Team Members:Raj Parikh,Biswaksen Patnaik,Sahar Zavaree --> */
+#body1{/*setting background(that is table image)*/
+	 background:url('interface2.jpg'); /*add image of the table here*/
+	background-size:100vw 100vh;
+}
+head,body{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+#button1{/*deal button*/
+	width:7%;
+	height:11%;
+    color: #9E5B00;
+	font-size:24px;
+    padding: 2px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+	opacity:0.8;
+	margin-right:1;
+	float:right;
+	margin-top:7.2%;
+	font-family: 'Orbitron';
+	background-color:gray;
+	background-image:url('BUTTON.jpg');
+	background-size:auto;
+	box-shadow: 0 9px #999;
+}
+#button2{/*hit button*/
+	width: 7%;
+    background-color: black;
+    color: #9E5B00;
+	font-size:24px;
+    padding: 2px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+	opacity:0.9;
+	margin-right:-1.4%;
+	float:right;
+	margin-top:5.0%;
+	font-family: 'Orbitron';
+    background-color:gray;
+	background-image:url('BUTTON.jpg');
+		box-shadow: 0 9px #999;
+}
+#button3{/*stand button*/
+	width: 7%;
+    background-color: black;
+    color: #9E5B00;
+	font-size:24px;
+    padding: 2px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+	opacity:0.9;
+	margin-right:-1.8%;
+	float:right;
+	margin-top:2.2%;
+	font-family: 'Orbitron';
+    background-color:gray;
+	background-image:url('BUTTON.jpg');
+		box-shadow: 0 9px #999;
+}				
+#button4{/*double button*/
+	width: 7%;
+    background-color: black;
+    color: #9E5B00;
+	font-size:24px;
+    padding: 2px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+	opacity:0.9;
+	margin-right:14%;
+	float:right;
+	margin-top:-0.8%;
+	font-family: 'Orbitron';
+    background-color:gray;
+	background-image:url('BUTTON.jpg');
+		box-shadow: 0 9px #999;
+}		
+#button5{/*split button*/
+	width: 6.5%;
+    background-color: black;
+    color: #9E5B00;
+	font-size:24px;
+    padding: 2px;
+    margin: 8px 0;
+    border: none;	
+    border-radius: 50%;
+    cursor: pointer;
+	opacity:0.9;
+	margin-right:10.5%;
+	float:right;
+	margin-top:-4%;
+	font-family: 'Orbitron';
+    background-color:gray;
+	background-image:url('BUTTON.jpg');
+		box-shadow: 0 9px #999;
+}
+#button1:hover,#button2:hover,#button3:hover,#button4:hover,#button5:hover{/*click effect of deal,hit.stand,double and split button*/
+	background-color: #ffffff;
+}
+#button1:active,#button2:active,#button3:active,#button4:active,#button4:active,#button5:active{/*click effect of deal,hit.stand,double and split button*/
+	box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}				
+
+#button6{/*100 coin*/
+	width: 10vh;
+	height:10vh;
+    background-image:url('100.png');
+	background-size:cover;
+    color: #9E5B00;
+    padding: 2px;
+	font-size:24px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+	opacity:0.9;
+	margin-left:10.2%;
+	margin-right:1%;
+	float:left;
+	margin-top:-5.1%;
+	
+}
+
+#button7{/*50 coin*/
+	width: 10vh;
+	height:10vh;
+    background-image:url('50.png');
+	background-size:cover;
+    color: #9E5B00;
+    padding: 2px;
+	font-size:24px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+	opacity:0.9;
+	margin-right:1%;
+	margin-left:15%;
+	float:left;
+	margin-top:-1.5%
+}				
+#button8{/*25 coin*/
+	width: 10vh;
+	height:10vh;
+    background-image:url('25.png');
+	background-size:cover;
+    color: #9E5B00;
+    padding: 2px;
+	font-size:24px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+	opacity:0.9;
+	margin-right: 1%;
+    margin-left: -.5%;
+	float:left;
+	margin-top:1.7%
+}
+#button9{/*5 coin*/
+	width: 9.5vh;
+	height:9.5vh;
+    background-image:url('5.png');
+	background-size:cover;
+    color: #9E5B00;
+    padding: 2px;
+	font-size:24px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+	opacity:0.9;
+	margin-right:-1%;
+    margin-left: .05%;
+	float:left;
+	margin-top:4.2%
+}	
+#button10{/*1 coin*/
+	width: 9vh;
+	height:9vh;
+    background-image:url('1.png');
+	background-size:cover;
+    color: #9E5B00;
+    padding: 2px;
+	font-size:24px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+	opacity:0.9;
+	margin-right:1.5%;
+    margin-left: 2%;
+	float:left;
+	margin-top:6.0%
+}	
+#buttoncoin100{/*setting initial position for transistion effect of coins and size of coins*/
+	width: 10vh;
+	height:10vh;
+    background-image:url('100.png');
+	background-size:cover;
+    color: #9E5B00;
+    padding: 2px;
+	font-size:24px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+	opacity:0;
+	margin-left:10%;
+	margin-right:1%;
+	float:left;
+	margin-top:7%;
+	position:absolute;
+}
+#buttoncoin50{
+	width: 10vh;
+	height:10vh;
+    background-image:url('50.png');
+	background-size:cover;
+    color: #9E5B00;
+    padding: 2px;
+	font-size:24px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+	opacity:0;
+	margin-left:10%;
+	margin-right:1%;
+	float:left;
+	margin-top:7%;
+	position:absolute;
+}
+#buttoncoin25{
+	width: 10vh;
+	height:10vh;
+    background-image:url('25.png');
+	background-size:cover;
+    color: #9E5B00;
+    padding: 2px;
+	font-size:24px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+	opacity:0;
+	margin-left:10%;
+	margin-right:1%;
+	float:left;
+	margin-top:7%;
+	position:absolute;
+}
+#buttoncoin5{
+	width: 10vh;
+	height:10vh;
+    background-image:url('5.png');
+	background-size:cover;
+    color: #9E5B00;
+    padding: 2px;
+	font-size:24px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+	opacity:0;
+	margin-left:10%;
+	margin-right:1%;
+	float:left;
+	margin-top:7%;
+	position:absolute;
+}
+#buttoncoin1{
+	width: 10vh;
+	height:10vh;
+    background-image:url('1.png');
+	background-size:cover;
+    color: #9E5B00;
+    padding: 2px;
+	font-size:24px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+	opacity:0;
+	margin-left:10%;
+	margin-right:1%;
+	float:left;
+	margin-top:7%;
+	position:absolute;
+}
+#bottom{/*div containing all the buttons*/
+	margin-top:11%;
+}
+#input1{/*setting position for bank amount*/
+	margin-top:9%;
+	font-size:30px;
+	color:#9E5B00;
+	width:10%;
+    padding:4px;
+	padding-right:0px;
+    display: inline-block;
+	font-family: 'Orbitron';
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	background-color:black;
+	opacity:0.9;
+	margin-left:7.5%;
+    text-align: center;
+}
+#input2{/*setting position for pot amount*/
+	margin-top:20%;
+	font-size:30px;
+	color:#9E5B00;
+	width:10%;
+    padding:4px;
+	padding-right:0px;
+    display: inline-block;
+	font-family: 'Orbitron';
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	background-color:black;
+	opacity:0.9;
+	margin-left:46%;
+    text-align: center;
+}
+#dealercardsplace{/*setting position for dealer's card*/
+	padding-left:35%;
+	padding-top:11%;	
+	position:absolute;
+}
+#dealercardsplace1{
+	padding-left:37%;
+	padding-top:11%;
+	position:absolute;
+}
+#dealercardsplace2{
+	padding-left:39%;
+	padding-top:11%;
+	position:absolute;
+}
+#dealercardsplace3{
+	padding-left:41%;
+	padding-top:11%;
+	position:absolute;
+}
+#dealercardsplace4{
+	padding-left:43%;
+	padding-top:11%;
+	position:absolute;
+}
+#dealercardsplace5{
+	padding-left:45%;
+	padding-top:11%;
+	position:absolute;
+}
+#dealercardsplace6{
+	padding-left:47%;
+	padding-top:11%;
+	position:absolute;
+}
+#dealercardsplace7{
+	padding-left:49%;
+	padding-top:11%;
+	position:absolute;
+}
+#dealercardsplace8{
+	padding-left:51%;
+	padding-top:11%;
+	position:absolute;
+}
+#dealercardsplace9{
+	padding-left:53%;
+	padding-top:11%;
+	position:absolute;
+}
+#dealercardsplace10{
+	padding-left:55%;
+	padding-top:11%;
+	position:absolute;
+}
+#dealercardsplace11{
+	padding-left:57%;
+	padding-top:11%;
+	position:absolute;
+}
+#cardsplace{/*setting position for player's card*/
+	padding-left:35%;
+	padding-top:3%;
+	position:absolute;
+}
+ #cardsplace1{ 
+	padding-left:37%;
+	padding-top:3%;
+	position:absolute;
+}
+#cardsplace2{
+	padding-left:39%;
+	padding-top:3%;
+	position:absolute;
+}
+#cardsplace3{
+	padding-left:41%;
+	padding-top:3%;
+	position:absolute;
+}
+#cardsplace4{
+	padding-left:43%;
+	padding-top:3%;
+	position:absolute;
+}
+#cardsplace5{
+	padding-left:45%;
+	padding-top:3%;
+	position:absolute;
+}
+#cardsplace6{
+	padding-left:47%;
+	padding-top:3%;
+	position:absolute;
+}
+#cardsplace7{
+	padding-left:49%;
+	padding-top:3%;
+	position:absolute;
+}
+#cardsplace8{
+	padding-left:51%;
+	padding-top:3%;
+	position:absolute;
+}
+#cardsplace9{
+	padding-left:53%;
+	padding-top:3%;
+	position:absolute;
+}
+#cardsplace10{
+	padding-left:55%;
+	padding-top:3%;
+	position:absolute;
+}
+#cardsplace11{
+	padding-left:57%;
+	padding-top:3%;
+	position:absolute;
+}
+#myBtn{/*rules button*/
+	margin-top:2%;
+	position:absolute;
+	font-size:30px;
+	color:#9E5B00;
+	width:20%;
+    padding:4px;
+	padding-right:0px;
+    display: inline-block;
+	font-family: 'Orbitron';
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	background-color:white;
+	opacity:0.9;
+	margin-left:80%;
+    text-align: center;	
+}
+#restart{/*restart button*/
+	margin-top:7%;
+	position:absolute;
+	font-size:30px;
+	color:#9E5B00;
+	width:20%;
+    padding:4px;
+	padding-right:0px;
+    display: inline-block;
+	font-family: 'Orbitron';
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	background-color:white;
+	opacity:0.9;
+	margin-left:80%;
+    text-align: center;	
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Rules modal Content */
+.modal-content {
+    background-color: white;
+    margin: auto;
+	opacity:0.8;
+    padding: 20px;
+	border-radius:10%;
+	font-family:'Orbitron';
+    border: 1px solid #888;
+    width: 80%;
+	color:#9E5B00;
+}
+
+/* The Close Button of Rules modal */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

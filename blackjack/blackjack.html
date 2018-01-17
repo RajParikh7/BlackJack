@@ -1,0 +1,80 @@
+<!-- Team Members:Raj Parikh,Biswaksen Patnaik,Sahar Zavaree -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BlackJack</title>
+	<link rel="stylesheet" href="styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+</head>
+<body id="body1">	
+	<button id="myBtn">Rules</button><!-- Button for opening the Modal -->
+	<button id="restart">Restart Game</button><!-- Restarting game button -->
+		<div id="myModal" class="modal">
+		  
+		  <div class="modal-content"><!-- contains data to be displayed in Modal -->
+			<span class="close">&times;</span><!-- Displaying X button for closing -->
+			<ul>
+		<li>The goal of blackjack is to beat the dealer's hand without going over 21.</li>
+		<li>Face cards are worth 10. Aces are worth 1 or 11, whichever makes a better hand.</li>
+		<li>Each player starts with two cards, one of the dealer's cards is hidden until the end.</li>
+		<li>To 'Hit' is to ask for another card. To 'Stand' is to hold your total and end your turn.</li>
+		<li>If you go over 21 you bust, and the dealer wins regardless of the dealer's hand.</li>
+		<li>If you are dealt 21 from the start (Ace & 10), you got a blackjack.</li>
+		<li>Blackjack usually means you win 1.5 the amount of your bet. Depends on the casino.</li>
+		<li>Dealer will hit until his/her cards total 17 or higher.</li>
+		<li>Doubling is like a hit, only the bet is doubled and you only get one more card.</li>
+		</ul>
+		  </div>
+
+		</div>
+
+	<div id="dealercardsplace"></div><!-- Position for dealer's 1st card -->
+	<div id="dealercardsplace1"></div><!-- Position for dealer's 2nd card -->
+	<div id="dealercardsplace2"></div><!-- Position for dealer's 3rd card -->
+	<div id="dealercardsplace3"></div><!-- Position for dealer's 4th card -->
+	<div id="dealercardsplace4"></div><!-- Position for dealer's 5th card -->
+	<div id="dealercardsplace5"></div><!-- Position for dealer's 6th card -->
+	<div id="dealercardsplace6"></div><!-- Position for dealer's 7th card -->
+	<div id="dealercardsplace7"></div><!-- Position for dealer's 8th card -->
+	<div id="dealercardsplace8"></div><!-- Position for dealer's 9th card -->
+	<div id="dealercardsplace9"></div><!-- Position for dealer's 10th card -->
+	<div id="dealercardsplace10"></div><!-- Position for dealer's 11th card -->
+	<div id="dealercardsplace11"></div><!-- Position for dealer's 12th card -->
+	<input type="text" id="input2" value=0 disabled><!-- For displaying money in pot-->
+	<div id="cardsplace"></div><!-- Position for player's 1st card -->
+	<div id="cardsplace1"></div><!-- Position for player's 2nd card -->
+	<div id="cardsplace2"></div><!-- Position for player's 3rd card -->
+	<div id="cardsplace3"></div><!-- Position for player's 4th card -->
+	<div id="cardsplace4"></div><!-- Position for player's 5th card -->
+	<div id="cardsplace5"></div><!-- Position for player's 6th card -->
+	<div id="cardsplace6"></div><!-- Position for player's 7th card -->
+	<div id="cardsplace7"></div><!-- Position for player's 8th card -->
+	<div id="cardsplace8"></div><!-- Position for player's 9th card -->
+	<div id="cardsplace9"></div><!-- Position for player's 10th card -->
+	<div id="cardsplace10"></div><!-- Position for player's 11th card -->
+	<div id="cardsplace11"></div><!-- Position for player's 12th card -->
+	<div id="bottom">
+	<form>
+		<button type="button" value="Reset" id="button5">Split</button><!-- Split button-->
+		<button type="button" value="Reset" id="button4">Double</button><!-- Double button-->
+		<button type="button" value="Reset" id="button3">Stand</button><!-- Stand button-->
+		<button type="button" value="Reset" id="button2">Hit</button><!-- Hit button-->
+		<button type="button" value="Reset" id="button1">Deal</button><!-- Deal button-->
+	</form>
+	<button type="button" value="Reset" id="buttoncoin100"></button><!--For transistion effect of 100 coin-->
+	<button type="button" value="Reset" id="buttoncoin50"></button><!-- For transistion effect of 50 coin button-->
+	<button type="button" value="Reset" id="buttoncoin25"></button><!-- For transistion effect of 25 coin button-->
+	<button type="button" value="Reset" id="buttoncoin5"></button><!-- For transistion effect of 5 coin button-->
+	<button type="button" value="Reset" id="buttoncoin1"></button><!-- For transistion effect of 1 coin button-->
+	<button type="button" value="Reset" id="button6"></button><!-- 100 coin button-->
+	<button type="button" value="Reset" id="button7"></button><!-- 50 coin button-->
+	<button type="button" value="Reset" id="button8"></button><!-- 25 coin button-->
+	<button type="button" value="Reset" id="button9"></button><!-- 5 coin button-->
+	<button type="button" value="Reset" id="button10"></button><!-- 1 coin button-->
+	<input type="text" id="input1" value="2000" disabled><!-- value in bank -->
+	</div>
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</body>
